@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "735407862893",
+    "project_id": "fitness-80107",
+    "storage_bucket": "fitness-80107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735407862893:android:3ae35c6487ad6266d1bb64",
+        "android_client_info": {
+          "package_name": "com.example.fitnesstrackerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735407862893-41t49q2o1iv1kkm66tce3srn4qh8di7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn4sgPPqiBwvbjDWzZbW3hjvpKUHgai2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735407862893-41t49q2o1iv1kkm66tce3srn4qh8di7f.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "735407862893-jcl7ad37odfv4lltoc008ob9lt9qlb6v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "io.flutter.flutter.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
