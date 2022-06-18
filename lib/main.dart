@@ -12,7 +12,18 @@ import 'package:timezone/data/latest.dart' as tz;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options:FirebaseOptions(
+      apiKey: "AIzaSyD1cQ8xFdjbfFP7Hm7wRaFseAY2kj06S3A",
+      authDomain: "fitness-80107.firebaseapp.com",
+      projectId: "fitness-80107",
+      storageBucket: "fitness-80107.appspot.com",
+      messagingSenderId: "735407862893",
+      appId: "1:735407862893:web:c3699bdec47b337cd1bb64",
+      measurementId: "G-LC88LYQLWJ"
+    ),
+  );
+
   runApp(MyApp());
 }
 
